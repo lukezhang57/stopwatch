@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(0,0,0);
+    margin: 0;
+}
+#timer-container {
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#time {
+    color: white;
+    font-family: 'Share Tech Mono';
+    font-size: 96;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    color: #00ffa2;
+    font-family: 'Share Tech Mono';
+    border-radius: 10000px;
+    font-size: 28;
+    border: 2px solid #00ffa2;
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: transparent;
+    transition: 0.25s all;
+}
+
+button:hover {
+    color: white;
+    background-color: #00ffa2;
+    cursor: pointer;
+}
+
+#container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+#night-day{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#github {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.button2 {
+    color:  #00ffa2;
+    font-family: 'Share Tech Mono';
+    border-radius: 10000px;
+    font-size: 28;
+    border: 2px solid #00ffa2;
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: transparent;
+    transition: 0.25s all;
+    text-decoration: none;
+}
+
+.button2:hover {
+    color: white;
+    background-color: #00ffa2;
+    cursor: pointer;
+}

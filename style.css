@@ -17,7 +17,7 @@ body {
 
 #time {
     color: white;
-    font-family: 'Share Tech Mono';
+    font-family: 'Lato';
     font-size: 96;
     text-align: center;
     flex-direction: column;
@@ -32,11 +32,11 @@ body {
 }
 
 button {
-    color: #00ffa2;
-    font-family: 'Share Tech Mono';
+    color: #12e397;
+    font-family: 'Lato';
     border-radius: 10000px;
     font-size: 28;
-    border: 2px solid #00ffa2;
+    border: 2px solid #12e397;
     display: inline-block;
     text-align: center;
     padding-left: 30px;
@@ -50,7 +50,7 @@ button {
 
 button:hover {
     color: white;
-    background-color: #00ffa2;
+    background-color: #12e397;
     cursor: pointer;
 }
 
@@ -78,11 +78,11 @@ button:hover {
 }
 
 .button2 {
-    color:  #00ffa2;
-    font-family: 'Share Tech Mono';
+    color:  #12e397;
+    font-family: 'Lato';
     border-radius: 10000px;
     font-size: 28;
-    border: 2px solid #00ffa2;
+    border: 2px solid #12e397;
     display: inline-block;
     text-align: center;
     padding-left: 30px;
@@ -97,6 +97,6 @@ button:hover {
 
 .button2:hover {
     color: white;
-    background-color: #00ffa2;
+    background-color: #12e397;
     cursor: pointer;
 }

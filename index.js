@@ -67,13 +67,13 @@ modeButton.addEventListener("click", function(){
     if (mode === "dark"){
         document.body.style.background = "#EFEFEF";
         displaytime.style.color = "#000000";
-        modeButton.innerText = "Dark Mode";
+        modeButton.className = modeButton.className.replace("far fa-sun","far fa-moon");
         mode = "light";
     }
     else {
+        modeButton.className = modeButton.className.replace("far fa-moon","far fa-sun");
         document.body.style.background =  "#000000";
         displaytime.style.color = "#FFFFFF";
-        modeButton.innerText = "Light Mode";
         mode = "dark";
     }
 })

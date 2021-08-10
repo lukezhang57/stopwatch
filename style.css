@@ -18,7 +18,7 @@ body {
 
 #time {
     color: white;
-    font-family: 'Lato';
+    font-family: 'Share Tech Mono';
     font-size: 96;
     text-align: center;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
 
 button {
     color: #12e397;
-    font-family: 'Lato';
+    font-family: 'Share Tech Mono';
     border-radius: 10000px;
     font-size: 28;
     border: 2px solid #12e397;
@@ -80,7 +80,7 @@ button:hover {
 
 .button2 {
     color:  #12e397;
-    font-family: 'Lato';
+    font-family: 'Share Tech Mono';
     border-radius: 10000px;
     font-size: 28;
     border: 2px solid #12e397;
@@ -100,4 +100,27 @@ button:hover {
     color: white;
     background-color: #12e397;
     cursor: pointer;
+}
+
+#modeIcon {
+    font-size: 30px;
+    color: #1cbfff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border: 2px solid #1cbfff;
+    border-radius: 10000px;
+    background-color: transparent;
+}
+
+#modeIcon:hover{
+    background-color: #1cbfff;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s all;
 }

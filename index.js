@@ -2,7 +2,7 @@ const displaytime = document.getElementById("time")
 const start = document.getElementById("startstop")
 const stop = document.getElementById("stop")
 const reset = document.getElementById("reset")
-const modeButton = document.getElementById("night-day")
+const modeButton = document.getElementById("modeIcon")
 
 let active = false;
 let mode = "dark";
